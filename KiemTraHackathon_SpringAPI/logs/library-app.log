@@ -1,0 +1,88 @@
+[2026-05-28 14:47:54] [INFO ] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.1.Final
+[2026-05-28 14:47:55] [INFO ] [r.d.KiemTraHackathonSpringApiApplicationTests] - Starting KiemTraHackathonSpringApiApplicationTests using Java 21.0.11 with PID 20408 (started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:47:55] [DEBUG] [r.d.KiemTraHackathonSpringApiApplicationTests] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:47:55] [INFO ] [r.d.KiemTraHackathonSpringApiApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:47:55] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:47:55] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+[2026-05-28 14:47:56] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:47:56] [INFO ] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.2.Final
+[2026-05-28 14:47:56] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:47:56] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:47:56] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:47:56] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a625e2e
+[2026-05-28 14:47:56] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:47:56] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:47:56] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:47:57] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:47:57] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:47:58] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:47:58] [INFO ] [r.d.KiemTraHackathonSpringApiApplicationTests] - Started KiemTraHackathonSpringApiApplicationTests in 3.998 seconds (process running for 5.382)
+[2026-05-28 14:47:59] [INFO ] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [ra.demo.controller.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2026-05-28 14:47:59] [INFO ] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration ra.demo.KiemTraHackathonSpringApiApplication for test class ra.demo.controller.BookControllerTest
+[2026-05-28 14:47:59] [INFO ] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.11 with PID 20408 (started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:47:59] [DEBUG] [r.demo.controller.BookControllerTest] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:47:59] [INFO ] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:47:59] [INFO ] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:47:59] [INFO ] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:47:59] [INFO ] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 2 ms
+[2026-05-28 14:47:59] [INFO ] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 0.584 seconds (process running for 6.382)
+[2026-05-28 14:48:00] [DEBUG] [r.demo.service.impl.BookServiceImpl] - Request lấy sách với id: 99
+[2026-05-28 14:48:00] [ERROR] [r.demo.service.impl.BookServiceImpl] - Không tìm thấy sách với id: 99
+[2026-05-28 14:48:00] [DEBUG] [r.demo.service.impl.BookServiceImpl] - Request lấy toàn bộ danh sách sách
+[2026-05-28 14:48:00] [INFO ] [r.demo.service.impl.BookServiceImpl] - Lấy danh sách sách thành công. Tổng số sách: 2
+[2026-05-28 14:48:00] [DEBUG] [r.demo.service.impl.BookServiceImpl] - Request lấy sách với id: 1
+[2026-05-28 14:48:00] [INFO ] [r.demo.service.impl.BookServiceImpl] - Lấy thông tin sách thành công với id: 1
+[2026-05-28 14:48:00] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:48:00] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 14:48:00] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+[2026-05-28 14:50:06] [INFO ] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.1.Final
+[2026-05-28 14:50:06] [INFO ] [r.demo.controller.BookControllerTest] - Starting BookControllerTest using Java 21.0.11 with PID 2960 (started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:50:06] [DEBUG] [r.demo.controller.BookControllerTest] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:50:06] [INFO ] [r.demo.controller.BookControllerTest] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:50:09] [INFO ] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+[2026-05-28 14:50:09] [INFO ] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+[2026-05-28 14:50:09] [INFO ] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 3 ms
+[2026-05-28 14:50:09] [INFO ] [r.demo.controller.BookControllerTest] - Started BookControllerTest in 3.628 seconds (process running for 5.661)
+[2026-05-28 14:50:09] [INFO ] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [ra.demo.KiemTraHackathonSpringApiApplicationTests]: KiemTraHackathonSpringApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2026-05-28 14:50:09] [INFO ] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration ra.demo.KiemTraHackathonSpringApiApplication for test class ra.demo.KiemTraHackathonSpringApiApplicationTests
+[2026-05-28 14:50:09] [INFO ] [r.d.KiemTraHackathonSpringApiApplicationTests] - Starting KiemTraHackathonSpringApiApplicationTests using Java 21.0.11 with PID 2960 (started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:50:09] [DEBUG] [r.d.KiemTraHackathonSpringApiApplicationTests] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:50:09] [INFO ] [r.d.KiemTraHackathonSpringApiApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:50:10] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:50:10] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+[2026-05-28 14:50:10] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:50:10] [INFO ] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.2.Final
+[2026-05-28 14:50:10] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:50:11] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:50:11] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:50:11] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b758c0f
+[2026-05-28 14:50:11] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:50:11] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:50:11] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:50:13] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:50:13] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:50:13] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:50:13] [INFO ] [r.d.KiemTraHackathonSpringApiApplicationTests] - Started KiemTraHackathonSpringApiApplicationTests in 4.042 seconds (process running for 10.19)
+[2026-05-28 14:50:14] [DEBUG] [r.demo.service.impl.BookServiceImpl] - Request lấy sách với id: 99
+[2026-05-28 14:50:14] [ERROR] [r.demo.service.impl.BookServiceImpl] - Không tìm thấy sách với id: 99
+[2026-05-28 14:50:14] [DEBUG] [r.demo.service.impl.BookServiceImpl] - Request lấy toàn bộ danh sách sách
+[2026-05-28 14:50:14] [INFO ] [r.demo.service.impl.BookServiceImpl] - Lấy danh sách sách thành công. Tổng số sách: 2
+[2026-05-28 14:50:14] [DEBUG] [r.demo.service.impl.BookServiceImpl] - Request lấy sách với id: 1
+[2026-05-28 14:50:14] [INFO ] [r.demo.service.impl.BookServiceImpl] - Lấy thông tin sách thành công với id: 1
+[2026-05-28 14:50:14] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:50:14] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 14:50:14] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

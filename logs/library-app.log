@@ -1,0 +1,211 @@
+[2026-05-28 14:45:53] [INFO ] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.2.Final
+[2026-05-28 14:45:53] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.11 with PID 6828 (C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI\build\classes\java\main started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:45:53] [DEBUG] [r.d.KiemTraHackathonSpringApiApplication] - Running with Spring Boot v3.4.5, Spring v6.2.6
+[2026-05-28 14:45:53] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:45:54] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:45:54] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+[2026-05-28 14:45:55] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+[2026-05-28 14:45:55] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:45:55] [INFO ] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:45:55] [INFO ] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[2026-05-28 14:45:55] [INFO ] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+[2026-05-28 14:45:55] [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1418 ms
+[2026-05-28 14:45:55] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:45:55] [INFO ] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.13.Final
+[2026-05-28 14:45:55] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:45:55] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:45:55] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:45:56] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c6bd624
+[2026-05-28 14:45:56] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:45:56] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:45:56] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:45:57] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:45:57] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:45:57] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:45:57] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:45:57] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path '/'
+[2026-05-28 14:45:57] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 4.704 seconds (process running for 5.041)
+[2026-05-28 14:46:39] [INFO ] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.1.Final
+[2026-05-28 14:46:39] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.11 with PID 21996 (C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI\build\classes\java\main started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:46:39] [DEBUG] [r.d.KiemTraHackathonSpringApiApplication] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:46:39] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:46:39] [INFO ] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2026-05-28 14:46:39] [INFO ] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2026-05-28 14:46:39] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:46:40] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+[2026-05-28 14:46:40] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+[2026-05-28 14:46:40] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:46:40] [INFO ] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:46:40] [INFO ] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2026-05-28 14:46:40] [INFO ] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+[2026-05-28 14:46:40] [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1278 ms
+[2026-05-28 14:46:40] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:46:40] [INFO ] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.2.Final
+[2026-05-28 14:46:40] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:46:41] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:46:41] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:46:41] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76eb2e3d
+[2026-05-28 14:46:41] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:46:41] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:46:41] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:46:42] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:46:42] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:46:42] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:46:43] [INFO ] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+[2026-05-28 14:46:43] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-28 14:46:43] [WARN ] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2026-05-28 14:46:43] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:46:43] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 14:46:43] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+[2026-05-28 14:46:43] [INFO ] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2026-05-28 14:46:43] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[2026-05-28 14:47:35] [INFO ] [o.h.validator.internal.util.Version] - HV000001: Hibernate Validator 8.0.1.Final
+[2026-05-28 14:47:35] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.11 with PID 13716 (C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI\build\classes\java\main started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:47:35] [DEBUG] [r.d.KiemTraHackathonSpringApiApplication] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:47:35] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:47:35] [INFO ] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2026-05-28 14:47:35] [INFO ] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2026-05-28 14:47:35] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:47:35] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+[2026-05-28 14:47:36] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8081 (http)
+[2026-05-28 14:47:36] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:47:36] [INFO ] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:47:36] [INFO ] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2026-05-28 14:47:36] [INFO ] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+[2026-05-28 14:47:36] [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1373 ms
+[2026-05-28 14:47:36] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:47:36] [INFO ] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.6.2.Final
+[2026-05-28 14:47:36] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:47:37] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:47:37] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+[2026-05-28 14:47:37] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ecbaad
+[2026-05-28 14:47:37] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+[2026-05-28 14:47:37] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:47:37] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:47:38] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:47:38] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:47:38] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:47:39] [INFO ] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+[2026-05-28 14:47:39] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:47:39] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8081 (http) with context path '/'
+[2026-05-28 14:47:39] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 4.439 seconds (process running for 4.864)
+[2026-05-28 14:47:53] [INFO ] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 17 class path changes (0 additions, 0 deletions, 17 modifications)
+[2026-05-28 14:47:53] [INFO ] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+[2026-05-28 14:47:53] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:47:53] [INFO ] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+[2026-05-28 14:47:53] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:47:53] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:47:53] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+[2026-05-28 14:47:53] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+[2026-05-28 14:47:53] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.11 with PID 13716 (C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI\build\classes\java\main started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:47:53] [DEBUG] [r.d.KiemTraHackathonSpringApiApplication] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:47:53] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:47:53] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:47:53] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+[2026-05-28 14:47:53] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8081 (http)
+[2026-05-28 14:47:53] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:47:53] [INFO ] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:47:53] [INFO ] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2026-05-28 14:47:53] [INFO ] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+[2026-05-28 14:47:53] [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 171 ms
+[2026-05-28 14:47:53] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:47:53] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:47:53] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:47:53] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Starting...
+[2026-05-28 14:47:53] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@671bb16e
+[2026-05-28 14:47:53] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Start completed.
+[2026-05-28 14:47:53] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:47:53] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:47:53] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:47:53] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:47:53] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:47:53] [INFO ] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+[2026-05-28 14:47:53] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:47:53] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8081 (http) with context path '/'
+[2026-05-28 14:47:53] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 0.357 seconds (process running for 19.356)
+[2026-05-28 14:47:53] [INFO ] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
+[2026-05-28 14:50:04] [INFO ] [o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2026-05-28 14:50:04] [INFO ] [o.s.b.w.e.tomcat.GracefulShutdown] - Commencing graceful shutdown. Waiting for active requests to complete
+[2026-05-28 14:50:04] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Pausing ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:50:04] [INFO ] [o.s.b.w.e.tomcat.GracefulShutdown] - Graceful shutdown complete
+[2026-05-28 14:50:04] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Stopping ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:50:04] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:50:04] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown initiated...
+[2026-05-28 14:50:04] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-2 - Shutdown completed.
+[2026-05-28 14:50:04] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Starting KiemTraHackathonSpringApiApplication using Java 21.0.11 with PID 13716 (C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI\KiemTraHackathon_SpringAPI\build\classes\java\main started by nguye in C:\Users\nguye\Downloads\KiemTraHackathon_SpringAPI)
+[2026-05-28 14:50:04] [DEBUG] [r.d.KiemTraHackathonSpringApiApplication] - Running with Spring Boot v3.4.0, Spring v6.2.0
+[2026-05-28 14:50:04] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 14:50:04] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2026-05-28 14:50:04] [INFO ] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+[2026-05-28 14:50:04] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8081 (http)
+[2026-05-28 14:50:04] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:50:04] [INFO ] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+[2026-05-28 14:50:04] [INFO ] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.33]
+[2026-05-28 14:50:04] [INFO ] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+[2026-05-28 14:50:04] [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 280 ms
+[2026-05-28 14:50:04] [INFO ] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 14:50:04] [INFO ] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+[2026-05-28 14:50:04] [INFO ] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+[2026-05-28 14:50:04] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Starting...
+[2026-05-28 14:50:04] [INFO ] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d64d8ba
+[2026-05-28 14:50:04] [INFO ] [com.zaxxer.hikari.HikariDataSource] - HikariPool-3 - Start completed.
+[2026-05-28 14:50:04] [WARN ] [org.hibernate.orm.deprecation] - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 14:50:04] [INFO ] [o.hibernate.orm.connections.pooling] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 14:50:04] [INFO ] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 14:50:05] [INFO ] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2026-05-28 14:50:05] [WARN ] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 14:50:05] [INFO ] [o.s.b.d.a.OptionalLiveReloadServer] - LiveReload server is running on port 35729
+[2026-05-28 14:50:05] [INFO ] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8081"]
+[2026-05-28 14:50:05] [INFO ] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8081 (http) with context path '/'
+[2026-05-28 14:50:05] [INFO ] [r.d.KiemTraHackathonSpringApiApplication] - Started KiemTraHackathonSpringApiApplication in 0.555 seconds (process running for 150.93)
+[2026-05-28 14:50:05] [INFO ] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener] - Condition evaluation unchanged
